@@ -1,0 +1,14 @@
+[cpu]
+disable=false
+target=75 # 目标值，启动占用后，会一直占用cpu到75%左右
+low=60 # 低位值，cpu占用低于60%时，启动占用cpu
+high=85 # 高位值，cpu占用高于85%时，停止占用cpu
+
+[mem]
+disable=false
+target=75 # 目标值，启动占用后，会一直占用内存到75%左右
+low=60 # 低位值，内存占用低于60%时，启动占用内存
+high=85 # 高位值，内存占用高于85%时，停止占用内存
+
+[logger]
+level="info"
